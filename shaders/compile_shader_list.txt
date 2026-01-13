@@ -1,0 +1,3 @@
+arcana_particles_ps30.hlsl -v-30
+arcana_particles_vs30.hlsl -v-30
+arcana_particles_simple_vs30.hlsl -v-30

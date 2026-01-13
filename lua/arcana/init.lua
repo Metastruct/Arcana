@@ -11,6 +11,7 @@ if SERVER then
 	AddCSLuaFile("arcana/astral_vault.lua")
 	AddCSLuaFile("arcana/soul_mode.lua")
 	AddCSLuaFile("arcana/volumetric_fog.lua")
+	AddCSLuaFile("arcana/gpu_particles.lua")
 
 	resource.AddFile("sound/arcana/arcane_1.ogg")
 	resource.AddFile("sound/arcana/arcane_2.ogg")
@@ -37,6 +38,7 @@ if CLIENT then
 	include("arcana/hud.lua")
 	include("arcana/spell_browser.lua")
 	include("arcana/voice_activation.lua")
+	include("arcana/gpu_particles.lua")
 end
 
 -- Load all statuses from arcana/status/*.lua
